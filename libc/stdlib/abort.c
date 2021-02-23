@@ -9,7 +9,7 @@ void abort(void) {
 #else
 	// TODO: Abnormally terminate the process as if by SIGABRT.
 	printf("abort()\n");
-#endif
+#endif	
 	while (1) { }
 	__builtin_unreachable();
 }
